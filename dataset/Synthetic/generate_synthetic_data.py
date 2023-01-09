@@ -3,7 +3,7 @@ import numpy as np
 from scipy.io import savemat
 from scipy.stats import multivariate_normal as mvn
 
-no_instance = 2
+no_instance = 25
 d = 10
 xcoords = [300, 700, 1200, 1500, 1900, 2200, 2400, 2700, 2900]
 def generate_sequence():
