@@ -6,7 +6,7 @@ import glob
 import numpy as np
 import pandas as pd
 from scipy.io import loadmat
-from TwoSampleTestStats import RE, sRE, W1T, W2T, MMD, Sinkdiv
+from TwoSampleTestStats import RE, sRE, W1, WQT, MMD, Sinkdiv
 
 def get_args(parser):
     parser.add_argument('--dataset', required=True, help='synthetic')
