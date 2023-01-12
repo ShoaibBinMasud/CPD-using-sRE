@@ -9,6 +9,6 @@
 - pandas=0.23.4
 ## How to run the code
 # For real-world dataset
-$ python main.py --dataset beedance -- window 20 -DELTA 10 --xi 10
+$ python main.py --dataset beedance -- window 20  --epsilon 1 -DELTA 10 --xi 10
 # For Toy dataset
 $ python toy.py --dataset synthetic
