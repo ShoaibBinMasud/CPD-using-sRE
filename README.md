@@ -11,4 +11,4 @@
 # For real-world dataset
 $ python main.py --dataset beedance -- window 20 -DELTA 10 --xi 10
 # For Toy dataset
-$ python toy.py
+$ python toy.py --dataset synthetic
