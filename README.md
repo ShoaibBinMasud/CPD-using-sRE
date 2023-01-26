@@ -9,4 +9,5 @@
 # For real-world dataset
 $ python main.py --dataset beedance -- window 20  --epsilon 1 --DELTA 10 --xi 10
 # To reproduce the results on synthetic dataset
-$ python toy.py --dataset synthetic
+Step 1: To generate the synthetic data, run: dataset/Synthetic/generate_synthetic_data.py 
+Step 2: $ python toy.py --dataset synthetic
