@@ -8,6 +8,7 @@
 - skleanr = 1.1.3
 - ghalton = 0.6.2
 - POT = 0.7.2
+- openpyxl = 3.0.10
 ## How to run the code
 # Reproducing results for real-world dataset
 
